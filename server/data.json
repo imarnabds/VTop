@@ -1,0 +1,82 @@
+{
+  "academics": {
+    "faculty-info": {
+      "title": "Faculty Information",
+      "type": "table",
+      "columns": ["S.No", "Faculty Name", "Designation", "School", "Cabin", "Email"],
+      "data": [
+        {"S.No": 1, "Faculty Name": "Dr. Hari Krishna", "Designation": "Professor", "School": "SCOPE", "Cabin": "AB1-404", "Email": "hari.k@vitap.ac.in"},
+        {"S.No": 2, "Faculty Name": "Dr. Sarah", "Designation": "Associate Professor", "School": "SITE", "Cabin": "AB2-201", "Email": "sarah.s@vitap.ac.in"}
+      ]
+    },
+    "class-attendance": {
+      "title": "Class Attendance Details",
+      "type": "table",
+      "columns": ["Course Code", "Course Title", "Class Type", "Total Classes", "Attended", "Percentage (%)"],
+      "data": [
+        {"Course Code": "CSE3001", "Course Title": "Software Testing", "Class Type": "Theory", "Total Classes": 45, "Attended": 40, "Percentage (%)": "88.89%"},
+        {"Course Code": "MAT2001", "Course Title": "Discrete Mathematics", "Class Type": "Theory", "Total Classes": 52, "Attended": 41, "Percentage (%)": "78.84%"}
+      ]
+    },
+    "time-table": {
+      "title": "Time Table",
+      "type": "table",
+      "columns": ["Day", "08:00 - 08:50", "09:00 - 09:50", "10:00 - 10:50", "11:00 - 11:50", "12:00 - 12:50", "14:00 - 14:50"],
+      "data": [
+        {"Day": "Monday", "08:00 - 08:50": "CSE3001", "09:00 - 09:50": "-", "10:00 - 10:50": "MAT2001", "11:00 - 11:50": "-", "12:00 - 12:50": "LUNCH", "14:00 - 14:50": "ENG1011"},
+        {"Day": "Tuesday", "08:00 - 08:50": "-", "09:00 - 09:50": "CSE3001", "10:00 - 10:50": "-", "11:00 - 11:50": "MAT2001", "12:00 - 12:50": "LUNCH", "14:00 - 14:50": "-"}
+      ]
+    }
+  },
+  "hostels": {
+    "hostel-room-info-2024-25": {
+      "title": "Hostel Room Information 2024-25",
+      "type": "card",
+      "data": {
+        "Block Name": "MHB-2",
+        "Room Number": "402",
+        "Room Bed Type": "4 Bed AC",
+        "Mess Type": "Special Mess",
+        "Hostel Fee": "₹ 1,12,000",
+        "Status": "Allotted"
+      }
+    },
+    "online-booking": {
+      "title": "Online Hostel Booking Request",
+      "type": "form",
+      "fields": [
+        {"name": "academicYear", "label": "Academic Year", "type": "text", "defaultValue": "2025-26", "readOnly": true},
+        {"name": "block", "label": "Preferred Block", "type": "select", "options": ["MH1", "MH2", "MH3", "MH4"]},
+        {"name": "roomType", "label": "Room Type", "type": "select", "options": ["2 Bed Non-AC", "4 Bed AC", "6 Bed AC"]},
+        {"name": "messType", "label": "Mess Type", "type": "select", "options": ["Veg", "Non-Veg", "Special"]},
+        {"name": "remarks", "label": "Additional Remarks", "type": "textarea"}
+      ]
+    }
+  },
+  "my-info": {
+    "profile": {
+      "title": "Student Profile",
+      "type": "card",
+      "data": {
+        "Application No.": "202100451",
+        "Registration Number": "21BCE7045",
+        "Student Name": "John Doe",
+        "Date of Birth": "14-May-2003",
+        "Programme": "B.Tech. Computer Science and Engineering",
+        "Status": "Regular",
+        "Blood Group": "O+"
+      }
+    }
+  },
+  "examination": {
+    "exam-schedule": {
+      "title": "Exam Schedule",
+      "type": "table",
+      "columns": ["Course Code", "Course Title", "Exam Type", "Date", "Session", "Seat No", "Venue"],
+      "data": [
+        {"Course Code": "CSE3001", "Course Title": "Software Testing", "Exam Type": "CAT 2", "Date": "20-Apr-2026", "Session": "Morning", "Seat No": "A51", "Venue": "CB-104"},
+        {"Course Code": "MAT2001", "Course Title": "Discrete Mathematics", "Exam Type": "CAT 2", "Date": "22-Apr-2026", "Session": "Afternoon", "Seat No": "C12", "Venue": "AB1-301"}
+      ]
+    }
+  }
+}
